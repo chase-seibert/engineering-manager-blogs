@@ -11,10 +11,14 @@ Aggregated RSS feed here: TODO
 
 ## RSS Feeds
 
+- Ben Stewart https://ibenstewart.com/feed
 - Daniel Richnak https://danielrichnak.com/feed
 - Chase Seibert https://chase-seibert.github.io/blog/feed.manager.xml
 - Chelsea Troy https://chelseatroy.com/feed/
+- Daksh https://medium.com/feed/dakshp
+- Jakob Heuser https://www.leadsv.com/insight/?format=rss
 - Kendall Miller http://www.kendallmiller.co/kendall-miller-blog?format=RSS
 - Matt Newkirk https://matthewnewkirk.com/feed/
 - Michael Lopp http://randsinrepose.com/feed/
 - Roy Rapoport https://medium.com/@royrapoport
+- Said Ketchman https://introvertedengineer.com/feed
