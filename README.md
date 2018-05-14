@@ -2,13 +2,19 @@
 
 Collection of Engineering Manager Blog RSS Feeds
 
-Aggregated RSS feed here: XXX
+Aggregated RSS feed here: TODO
 
 ## Guidelines
 
-- *In alphabetical order*
+- *In alphabetical order by first name*
 - ONLY posts that related to people management. If you have posts on various subjects, please create a separate RSS feed just for the management posts.
 
 ## RSS Feeds
 
+- Daniel Richnak https://danielrichnak.com/feed
 - Chase Seibert https://chase-seibert.github.io/blog/feed.manager.xml
+- Chelsea Troy https://chelseatroy.com/feed/
+- Kendall Miller http://www.kendallmiller.co/kendall-miller-blog?format=RSS
+- Matt Newkirk https://matthewnewkirk.com/feed/
+- Michael Lopp http://randsinrepose.com/feed/
+- Roy Rapoport https://medium.com/@royrapoport
