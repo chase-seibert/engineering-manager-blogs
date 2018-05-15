@@ -20,5 +20,5 @@ Aggregated RSS feed here: TODO
 - Kendall Miller http://www.kendallmiller.co/kendall-miller-blog?format=RSS
 - Matt Newkirk https://matthewnewkirk.com/feed/
 - Michael Lopp http://randsinrepose.com/feed/
-- Roy Rapoport https://medium.com/@royrapoport
+- Roy Rapoport https://medium.com/feed/@royrapoport
 - Said Ketchman https://introvertedengineer.com/feed
