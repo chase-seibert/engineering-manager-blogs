@@ -2,7 +2,6 @@ package main
 
 import "fmt"
 import "github.com/mmcdole/gofeed"
-//import "github.com/SlyMarbo/rss"
 import "github.com/gorilla/feeds"
 import "sort"
 import "time"
@@ -28,15 +27,15 @@ func getUrls(baseUrl string) []string {
 }
 
 func fetchUrl(url string, ch chan<-*gofeed.Feed) {
-  fmt.Printf("%v\n", url)
+  log.Printf("Fetching URL: %v\n", url)
   fp := gofeed.NewParser()
-  feed, _ := fp.ParseURL(url)
-  // TODO: https://github.com/mmcdole/gofeed/issues/83
-  // See: https://github.com/mmcdole/gofeed#default-mappings
-  //feed, _ := rss.Fetch(url)
-  //fmt.Println(feed.Items[0].PublishedParsed)
-  //fmt.Println(feed.String())
-  ch <- feed
+  feed, err := fp.ParseURL(url)
+  if err == nil {
+    ch <- feed
+  } else {
+    log.Printf("Error on URL: %v (%v)", url, err)
+    ch <- nil
+  }
 }
 
 func fetchUrls(urls []string) []*gofeed.Feed {
@@ -47,9 +46,10 @@ func fetchUrls(urls []string) []*gofeed.Feed {
   }
   for range urls {
     feed := <- ch
-    allFeeds = append(allFeeds, feed)
+    if feed != nil {
+      allFeeds = append(allFeeds, feed)
+    }
   }
-  //fmt.Printf("%#v", allFeeds)
   return allFeeds
 }
 
@@ -65,6 +65,7 @@ func (s byPublished) Swap(i, j int) {
 }
 
 func (s byPublished) Less(i, j int) bool {
+    // TODO: handle nulls
     return s[i].Items[0].PublishedParsed.Before(*s[j].Items[0].PublishedParsed)
 }
 
@@ -110,15 +111,15 @@ func combineallFeeds(allFeeds []*gofeed.Feed) *feeds.Feed {
 func handler(w http.ResponseWriter, r *http.Request) {
   urls := getUrls(README_URL)
   allFeeds := fetchUrls(urls)
-	//fmt.Printf("%#v", allFeeds)
   combinedFeed := combineallFeeds(allFeeds)
-  //fmt.Printf("%#v", combinedFeed)
   atom, _ := combinedFeed.ToAtom()
   fmt.Fprintf(w, atom)
+  log.Printf("Rendered RSS with %v items", len(combinedFeed.Items))
 }
 
 func main() {
   http.HandleFunc("/", handler)
+  log.Printf("Listening on: http://localhost:8080/\n")
   log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
