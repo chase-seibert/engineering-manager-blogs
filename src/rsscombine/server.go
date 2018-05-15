@@ -25,20 +25,29 @@ func getUrls(baseUrl string) []string {
 	}
 }
 
+func fetchUrl(url string, ch chan<-*gofeed.Feed) {
+  fmt.Printf("%v\n", url)
+  fp := gofeed.NewParser()
+  feed, _ := fp.ParseURL(url)
+  // TODO: https://github.com/mmcdole/gofeed/issues/83
+  // See: https://github.com/mmcdole/gofeed#default-mappings
+  //feed, _ := rss.Fetch(url)
+  //fmt.Println(feed.Items[0].PublishedParsed)
+  //fmt.Println(feed.String())
+  ch <- feed
+}
+
 func fetchUrls(urls []string) []*gofeed.Feed {
   allFeeds := make([]*gofeed.Feed, 0)
+  ch := make(chan *gofeed.Feed)
   for _, url := range urls {
-    fmt.Printf("%v\n", url)
-    // TODO: https://github.com/mmcdole/gofeed/issues/83
-    fp := gofeed.NewParser()
-    feed, _ := fp.ParseURL(url)
-    // See: https://github.com/mmcdole/gofeed#default-mappings
-    //feed, _ := rss.Fetch(url)
-    //fmt.Println(feed.Items[0].PublishedParsed)
-    //fmt.Println(feed.String())
-    allFeeds = append(allFeeds, feed)
-    //fmt.Printf("%#v", allFeeds)
+    go fetchUrl(url, ch)
   }
+  for range urls {
+    feed := <- ch
+    allFeeds = append(allFeeds, feed)
+  }
+  //fmt.Printf("%#v", allFeeds)
   return allFeeds
 }
 
