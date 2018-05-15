@@ -7,8 +7,10 @@ import "sort"
 import "time"
 import "net/http"
 import "log"
+import "github.com/patrickmn/go-cache"
 
 const README_URL = "https://raw.githubusercontent.com/chase-seibert/engineering-manager-blogs/master/README.md"
+var feedCache = cache.New(60*time.Minute, 10*time.Minute) // timeout, purge time
 
 func getUrls(baseUrl string) []string {
 	return []string{
@@ -27,11 +29,18 @@ func getUrls(baseUrl string) []string {
 }
 
 func fetchUrl(url string, ch chan<-*gofeed.Feed) {
+  cachedFeed, found := feedCache.Get(url)
+	if found {
+    log.Printf("Cached URL: %v\n", url)
+		ch <- cachedFeed.(*gofeed.Feed)
+    return
+	}
   log.Printf("Fetching URL: %v\n", url)
   fp := gofeed.NewParser()
   feed, err := fp.ParseURL(url)
   if err == nil {
     ch <- feed
+    feedCache.Set(url, feed, cache.DefaultExpiration)
   } else {
     log.Printf("Error on URL: %v (%v)", url, err)
     ch <- nil
