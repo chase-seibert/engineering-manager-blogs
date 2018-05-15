@@ -6,6 +6,8 @@ import "github.com/mmcdole/gofeed"
 import "github.com/gorilla/feeds"
 import "sort"
 import "time"
+import "net/http"
+import "log"
 
 const README_URL = "https://raw.githubusercontent.com/chase-seibert/engineering-manager-blogs/master/README.md"
 
@@ -13,7 +15,7 @@ func getUrls(baseUrl string) []string {
 	return []string{
 		"https://ibenstewart.com/feed",
 		"https://danielrichnak.com/feed",
-		"https://chase-seibert.github.io/blog/feed.manager.xml",
+		"https://chase-seibert.github.io/blog/feed.xml",
 		"https://chelseatroy.com/feed/",
 		"https://medium.com/feed/dakshp",
 		"https://www.leadsv.com/insight/?format=rss",
@@ -105,22 +107,28 @@ func combineallFeeds(allFeeds []*gofeed.Feed) *feeds.Feed {
   return feed
 }
 
-func main() {
-	urls := getUrls(README_URL)
+func handler(w http.ResponseWriter, r *http.Request) {
+  urls := getUrls(README_URL)
   allFeeds := fetchUrls(urls)
 	//fmt.Printf("%#v", allFeeds)
   combinedFeed := combineallFeeds(allFeeds)
-  fmt.Printf("%#v", combinedFeed)
+  //fmt.Printf("%#v", combinedFeed)
   atom, _ := combinedFeed.ToAtom()
-  fmt.Printf(atom)
+  fmt.Fprintf(w, atom)
+}
+
+func main() {
+  http.HandleFunc("/", handler)
+  log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
 /*
 - Hard code URLs, fetch in serial, print to screen
 - Parse RSS and produce new stream
 - Parallelize fetching, error handling
+- Get working as RSS server
+- Serve RSS XML somewhere
 - Fetch list of URLs dynamically
 - Caching
 - lint/format
-- Serve RSS XML somewhere
 */
