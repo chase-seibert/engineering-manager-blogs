@@ -13,7 +13,7 @@ Aggregated RSS feed here: TODO
 
 - Ben Stewart https://ibenstewart.com/feed
 - Daniel Richnak https://danielrichnak.com/feed
-- Chase Seibert https://chase-seibert.github.io/blog/feed.manager.xml
+- Chase Seibert https://chase-seibert.github.io/blog/feed.xml
 - Chelsea Troy https://chelseatroy.com/feed/
 - Daksh https://medium.com/feed/dakshp
 - Jakob Heuser https://www.leadsv.com/insight/?format=rss
