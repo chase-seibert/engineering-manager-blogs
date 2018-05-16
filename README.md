@@ -2,14 +2,15 @@
 
 Collection of Engineering Manager Blog RSS Feeds
 
-Aggregated RSS feed here: https://engineering-manager-blogs.herokuapp.com/feed
-
-Code that does the aggregation: https://github.com/chase-seibert/rsscombine
+Aggregated feed: https://engineering-manager-blogs.herokuapp.com/feed
 
 ## Guidelines
 
-- *In alphabetical order by first name*
-- ONLY posts that related to people management. If you have posts on various subjects, please create a separate RSS feed just for the management posts.
+As pull requests are merged and this README is updated, the aggregated feed will automatically update.
+
+- Please open a PR to add your own blog!
+- *Add yourself in alphabetical order by first name*
+- Feeds should contain ONLY posts that relate to people management. If you have posts on various subjects, create a separate RSS feed just for the management posts.
 
 ## RSS Feeds
 
@@ -24,3 +25,8 @@ Code that does the aggregation: https://github.com/chase-seibert/rsscombine
 - Michael Lopp http://randsinrepose.com/feed/
 - Roy Rapoport https://medium.com/feed/@royrapoport
 - Said Ketchman https://introvertedengineer.com/feed
+
+## Technical Details
+
+The code that does the aggregation is here: https://github.com/chase-seibert/rsscombine
+
