@@ -8,6 +8,7 @@ import "time"
 import "net/http"
 import "log"
 import "github.com/patrickmn/go-cache"
+import "os"
 
 const README_URL = "https://raw.githubusercontent.com/chase-seibert/engineering-manager-blogs/master/README.md"
 var feedCache = cache.New(60*time.Minute, 10*time.Minute) // timeout, purge time
@@ -127,9 +128,13 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+  port := os.Getenv("PORT")
+  if port == "" {
+    port = "8080"
+  }
   http.HandleFunc("/", handler)
-  log.Printf("Listening on: http://localhost:8080/\n")
-  log.Fatal(http.ListenAndServe(":8080", nil))
+  log.Printf("Listening on: http://localhost:%v/\n", port)
+  log.Fatal(http.ListenAndServe(":" + port, nil))
 }
 
 /*
@@ -137,8 +142,7 @@ func main() {
 - Parse RSS and produce new stream
 - Parallelize fetching, error handling
 - Get working as RSS server
-- Serve RSS XML somewhere
-- Fetch list of URLs dynamically
 - Caching
+- Fetch list of URLs dynamically
 - lint/format
 */
