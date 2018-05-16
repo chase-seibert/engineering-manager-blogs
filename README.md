@@ -2,7 +2,9 @@
 
 Collection of Engineering Manager Blog RSS Feeds
 
-Aggregated RSS feed here: TODO
+Aggregated RSS feed here: https://engineering-manager-blogs.herokuapp.com/feed
+
+Code that does the aggregation: https://github.com/chase-seibert/rsscombine
 
 ## Guidelines
 
