@@ -25,8 +25,11 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Michael Lopp http://randsinrepose.com/feed/
 - Roy Rapoport https://medium.com/feed/@royrapoport
 - Said Ketchman https://introvertedengineer.com/feed
+- Will Larson https://lethain.com/feeds/
 
 ## Technical Details
 
 The code that does the aggregation is here: https://github.com/chase-seibert/rsscombine
+
+There is a cache timeout of one hour on adding new feeds, and updating feeds.
 
