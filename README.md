@@ -26,6 +26,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Roy Rapoport https://medium.com/feed/@royrapoport
 - Said Ketchman https://introvertedengineer.com/feed
 - Will Larson https://lethain.com/feeds/
+- Yağız Erkan https://medium.com/feed/@yagiz/
 
 ## Technical Details
 
