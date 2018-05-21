@@ -2,7 +2,7 @@
 
 Collection of Engineering Manager Blog RSS Feeds
 
-Aggregated feed: https://engineering-manager-blogs.herokuapp.com/feed
+Aggregated feed: https://s3-us-west-2.amazonaws.com/rsscombine/engineering-manager-blogs.xml
 
 ## Guidelines
 
