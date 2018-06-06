@@ -33,5 +33,5 @@ As pull requests are merged and this README is updated, the aggregated feed will
 
 The code that does the aggregation is here: https://github.com/chase-seibert/rsscombine
 
-There is a cache timeout of one hour on adding new feeds, and updating feeds.
+There is a cache timeout of one day on adding new feeds, and updating feeds.
 
