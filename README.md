@@ -24,6 +24,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Kim Moir https://kimmoir.blog/category/management/feed/
 - Matt Newkirk https://matthewnewkirk.com/feed/
 - Michael Lopp http://randsinrepose.com/feed/
+- Mike Borozdin http://www.mikebz.com/feeds/posts/default?alt=rss
 - Roy Rapoport https://medium.com/feed/@royrapoport
 - Said Ketchman https://introvertedengineer.com/feed
 - Tom Sommer https://medium.com/feed/@tom.leadintech
