@@ -20,6 +20,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Chelsea Troy https://chelseatroy.com/feed/
 - Daksh https://medium.com/feed/dakshp
 - Jakob Heuser https://www.leadsv.com/insight/?format=rss
+- Kate Heddleston https://kateheddleston.com/blog/feed.atom
 - Kendall Miller http://www.kendallmiller.co/kendall-miller-blog?format=RSS
 - Kim Moir https://kimmoir.blog/category/management/feed/
 - Matt Newkirk https://matthewnewkirk.com/feed/
