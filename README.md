@@ -31,6 +31,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Tom Sommer https://medium.com/feed/@tom.leadintech
 - Will Larson https://lethain.com/feeds/
 - Yağız Erkan https://medium.com/feed/@yagiz/
+- Nathan Broslawsky https://www.nathanbroslawsky.com/blog.rss
 
 ## Technical Details
 
