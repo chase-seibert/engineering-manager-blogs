@@ -20,6 +20,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Chelsea Troy https://chelseatroy.com/feed/
 - Daksh https://medium.com/feed/dakshp
 - Developer to Manager https://devtomanager.com/interviews/atom.xml
+- Dexter Sy https://techmanagement.life/category/engineering-management/feed
 - Jakob Heuser https://www.leadsv.com/insight/?format=rss
 - Kate Heddleston https://kateheddleston.com/blog/feed.atom
 - Kendall Miller http://www.kendallmiller.co/kendall-miller-blog?format=RSS
@@ -32,6 +33,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Tom Sommer https://medium.com/feed/@tom.leadintech
 - Will Larson https://lethain.com/feeds/
 - Yağız Erkan https://medium.com/feed/@yagiz/
+- Nathan Broslawsky https://www.nathanbroslawsky.com/blog.rss
 
 ## Technical Details
 
