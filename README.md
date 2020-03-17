@@ -19,6 +19,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Chase Seibert https://chase-seibert.github.io/blog/feed.xml
 - Chelsea Troy https://chelseatroy.com/feed/
 - Daksh https://medium.com/feed/dakshp
+- Developer to Manager https://devtomanager.com/interviews/atom.xml
 - Dexter Sy https://techmanagement.life/category/engineering-management/feed
 - Jakob Heuser https://www.leadsv.com/insight/?format=rss
 - Kate Heddleston https://kateheddleston.com/blog/feed.atom
