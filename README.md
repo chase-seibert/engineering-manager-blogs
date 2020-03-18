@@ -28,6 +28,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Matt Newkirk https://matthewnewkirk.com/feed/
 - Michael Lopp http://randsinrepose.com/feed/
 - Mike Borozdin http://www.mikebz.com/feeds/posts/default?alt=rss
+- Robby Bryant https://www.twowaystolearn.com/index.xml
 - Roy Rapoport https://medium.com/feed/@royrapoport
 - Said Ketchman https://introvertedengineer.com/feed
 - Tom Sommer https://medium.com/feed/@tom.leadintech
@@ -40,4 +41,3 @@ As pull requests are merged and this README is updated, the aggregated feed will
 The code that does the aggregation is here: https://github.com/chase-seibert/rsscombine
 
 There is a cache timeout of one day on adding new feeds, and updating feeds.
-
