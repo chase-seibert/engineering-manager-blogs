@@ -32,7 +32,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Roy Rapoport https://medium.com/feed/@royrapoport
 - Said Ketchman https://introvertedengineer.com/feed
 - Tom Sommer https://medium.com/feed/@tom.leadintech
-- Will Larson https://lethain.com/feeds/
+- Will Larson https://lethain.com/feeds.xml
 - Yağız Erkan https://medium.com/feed/@yagiz/
 - Nathan Broslawsky https://www.nathanbroslawsky.com/blog.rss
 
