@@ -23,6 +23,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Dexter Sy https://techmanagement.life/category/engineering-management/feed
 - Jakob Heuser https://www.leadsv.com/insight/?format=rss
 - Kate Heddleston https://kateheddleston.com/blog/feed.atom
+- Kellan Elliott-McCrea https://kellanem.com/feed
 - Kendall Miller http://www.kendallmiller.co/kendall-miller-blog?format=RSS
 - Kim Moir https://kimmoir.blog/category/management/feed/
 - Lara Hogan https://larahogan.me/feed.xml
