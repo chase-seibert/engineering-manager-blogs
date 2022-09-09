@@ -14,7 +14,6 @@ As pull requests are merged and this README is updated, the aggregated feed will
 
 ## RSS Feeds
 
-- Ben Stewart https://ibenstewart.com/feed
 - Daniel Richnak https://danielrichnak.com/feed
 - Chase Seibert https://chase-seibert.github.io/blog/feed.xml
 - Chelsea Troy https://chelseatroy.com/feed/
@@ -22,8 +21,8 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Developer to Manager https://devtomanager.com/interviews/atom.xml
 - Dexter Sy https://techmanagement.life/category/engineering-management/feed
 - Jade Rubick https://www.rubick.com/rss.xml
-- Jakob Heuser https://www.leadsv.com/insight/?format=rss
 - Kate Heddleston https://kateheddleston.com/blog/feed.atom
+- Kellan Elliott-McCrea https://kellanem.com/feed
 - Kendall Miller http://www.kendallmiller.co/kendall-miller-blog?format=RSS
 - Kim Moir https://kimmoir.blog/category/management/feed/
 - Lara Hogan https://larahogan.me/feed.xml
@@ -33,7 +32,6 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Robby Bryant https://www.twowaystolearn.com/index.xml
 - Roy Rapoport https://medium.com/feed/@royrapoport
 - Said Ketchman https://introvertedengineer.com/feed
-- Tom Sommer https://medium.com/feed/@tom.leadintech
 - Will Larson https://lethain.com/feeds.xml
 - Yağız Erkan https://medium.com/feed/@yagiz/
 - Nathan Broslawsky https://www.nathanbroslawsky.com/blog.rss
