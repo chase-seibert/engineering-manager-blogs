@@ -32,6 +32,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Robby Bryant https://www.twowaystolearn.com/index.xml
 - Roy Rapoport https://medium.com/feed/@royrapoport
 - Said Ketchman https://introvertedengineer.com/feed
+- Shay Nehmad https://www.mrnice.dev/posts/index.xml
 - Will Larson https://lethain.com/feeds.xml
 - Yağız Erkan https://medium.com/feed/@yagiz/
 - Nathan Broslawsky https://www.nathanbroslawsky.com/blog.rss
