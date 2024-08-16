@@ -20,6 +20,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Daksh https://medium.com/feed/dakshp
 - Developer to Manager https://devtomanager.com/interviews/atom.xml
 - Dexter Sy https://techmanagement.life/category/engineering-management/feed
+- Greg Conklin https://gregconklin.wordpress.com/feed/
 - Jade Rubick https://www.rubick.com/rss.xml
 - Kate Heddleston https://kateheddleston.com/blog/feed.atom
 - Kellan Elliott-McCrea https://kellanem.com/feed
