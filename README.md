@@ -38,6 +38,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Will Larson https://lethain.com/feeds.xml
 - Yağız Erkan https://medium.com/feed/@yagiz/
 - Nathan Broslawsky https://www.nathanbroslawsky.com/blog.rss
+- Dunya Kirkali and Maxim Schepelin https://blog.incrementalforgetting.tech/feed
 
 ## Technical Details
 
