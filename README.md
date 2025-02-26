@@ -27,7 +27,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Kendall Miller http://www.kendallmiller.co/kendall-miller-blog?format=RSS
 - Kim Moir https://kimmoir.blog/category/management/feed/
 - Lara Hogan https://larahogan.me/feed.xml
-- Mark Grebler https://mgrebler.medium.com/feed
+- Mark Grebler https://mgrebler.substack.com/feed
 - Matt Newkirk https://matthewnewkirk.com/feed/
 - Michael Lopp http://randsinrepose.com/feed/
 - Mike Borozdin http://www.mikebz.com/feeds/posts/default?alt=rss
