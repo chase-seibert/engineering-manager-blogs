@@ -23,8 +23,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Greg Conklin https://gregconklin.wordpress.com/feed/
 - Jade Rubick https://www.rubick.com/rss.xml
 - Kate Heddleston https://kateheddleston.com/blog/feed.atom
-- Kellan Elliott-McCrea https://kellanem.com/feed
-- Kendall Miller http://www.kendallmiller.co/kendall-miller-blog?format=RSS
+- Kellan Elliott-McCrea https://kellanem.com/feed.xml 
 - Kim Moir https://kimmoir.blog/category/management/feed/
 - Lara Hogan https://larahogan.me/feed.xml
 - Mark Grebler https://mgrebler.substack.com/feed
@@ -37,7 +36,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Shay Nehmad https://www.mrnice.dev/tags/management/index.xml
 - Will Larson https://lethain.com/feeds.xml
 - Yağız Erkan https://medium.com/feed/@yagiz/
-- Nathan Broslawsky https://www.nathanbroslawsky.com/blog.rss
+- Nathan Broslawsky https://www.nathanbroslawsky.com/newsletter/rss/
 - Dunya Kirkali and Maxim Schepelin https://blog.incrementalforgetting.tech/feed
 
 ## Technical Details
