@@ -29,7 +29,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Mark Grebler https://mgrebler.substack.com/feed
 - Matt Newkirk https://matthewnewkirk.com/feed/
 - Michael Lopp http://randsinrepose.com/feed/
-- Mike Borozdin http://www.mikebz.com/feeds/posts/default?alt=rss
+- Mike Borozdin https://mikebz.com/feed
 - Robby Bryant https://www.twowaystolearn.com/index.xml
 - Roy Rapoport https://medium.com/feed/@royrapoport
 - Said Ketchman https://introvertedengineer.com/feed
