@@ -14,6 +14,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 
 ## RSS Feeds
 
+- Andrew Murphy https://techleaderslaunchpad.com/api/rss/resources/blog
 - Daniel Richnak https://danielrichnak.com/feed
 - Chase Seibert https://chase-seibert.github.io/blog/feed.xml
 - Chelsea Troy https://chelseatroy.com/feed/
