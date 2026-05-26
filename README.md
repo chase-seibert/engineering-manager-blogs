@@ -15,12 +15,10 @@ As pull requests are merged and this README is updated, the aggregated feed will
 ## RSS Feeds
 
 - Andrew Murphy https://techleaderslaunchpad.com/api/rss/resources/blog
-- Daniel Richnak https://danielrichnak.com/feed
 - Charity Majors https://charity.wtf/feed/
 - Chase Seibert https://chase-seibert.github.io/blog/feed.xml
 - Chelsea Troy https://chelseatroy.com/feed/
 - Daksh https://medium.com/feed/dakshp
-- Developer to Manager https://devtomanager.com/interviews/atom.xml
 - Dexter Sy https://techmanagement.life/category/engineering-management/feed
 - Greg Conklin https://gregconklin.wordpress.com/feed/
 - Jade Rubick https://www.rubick.com/rss.xml
