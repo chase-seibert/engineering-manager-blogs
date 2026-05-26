@@ -26,7 +26,6 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Kellan Elliott-McCrea https://kellanem.com/feed.xml 
 - Kim Moir https://kimmoir.blog/category/management/feed/
 - Lara Hogan https://larahogan.me/feed.xml
-- Mark Grebler https://mgrebler.substack.com/feed
 - Matt Newkirk https://matthewnewkirk.com/feed/
 - Michael Lopp http://randsinrepose.com/feed/
 - Mike Borozdin https://mikebz.com/feed
@@ -37,7 +36,6 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Will Larson https://lethain.com/feeds.xml
 - Yağız Erkan https://medium.com/feed/@yagiz/
 - Nathan Broslawsky https://www.nathanbroslawsky.com/newsletter/rss/
-- Dunya Kirkali and Maxim Schepelin https://blog.incrementalforgetting.tech/feed
 
 ## Technical Details
 
