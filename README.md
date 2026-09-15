@@ -20,6 +20,7 @@ As pull requests are merged and this README is updated, the aggregated feed will
 - Chelsea Troy https://chelseatroy.com/feed/
 - Daksh https://medium.com/feed/dakshp
 - Dexter Sy https://techmanagement.life/category/engineering-management/feed
+- Francisco Trindade https://franciscotrindade.me/rss.xml
 - Greg Conklin https://gregconklin.wordpress.com/feed/
 - Jade Rubick https://www.rubick.com/rss.xml
 - Kate Heddleston https://kateheddleston.com/blog/feed.atom
